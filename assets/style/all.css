@@ -10194,10 +10194,6 @@ a.text-white:hover, a.text-white:focus {
     color: white;
     background: black; }
 
-/* text-decoration */
-.line-through {
-  text-decoration: line-through; }
-
 /* cursor */
 .cursor-pointer {
   cursor: pointer; }
@@ -10400,7 +10396,13 @@ ul {
   border-bottom: 2px solid #AC8A46; }
 
 .logo {
-  width: 128px; }
+  width: 128px;
+  background-image: url("../images/d’Perfume@2x.png");
+  background-size: contain;
+  overflow: hidden;
+  text-indent: 101%;
+  background-repeat: no-repeat;
+  background-position: center; }
 
 .navbar__cart__icon {
   position: absolute;
@@ -10450,6 +10452,9 @@ footer .nav-link:hover {
      object-fit: cover;
   -o-object-position: center center;
      object-position: center center; }
+  @media (min-width: 768px) {
+    .intro__list__img {
+      height: auto; } }
   @media (min-width: 992px) {
     .intro__list__img {
       height: 1080px; } }
