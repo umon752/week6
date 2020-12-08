@@ -3996,8 +3996,8 @@ input[type="button"].btn-block {
     z-index: 2;
     color: #916019;
     text-decoration: none;
-    background-color: #e9ecef;
-    border-color: #dee2e6; }
+    background-color: transparent;
+    border-color: transparent; }
   .page-link:focus {
     z-index: 3;
     outline: 0;
@@ -10175,7 +10175,6 @@ a.text-white:hover, a.text-white:focus {
 .invisible {
   visibility: hidden !important; }
 
-/* RWD斷點(BS4) */
 /* 記住CSS */
 /* border */
 .border-bold-white {
